@@ -196,10 +196,10 @@ class FileShare extends ZComponent {
     div.action {
       white-space: nowrap;
       overflow: hidden;
-      text-overflow: ellipsis;
+      text-overflow: ellipsis; 
     }
     div.action * {
-      min-width: 0;
+      min-width: 10;
     }
     span.action-link {
       color: blue;
