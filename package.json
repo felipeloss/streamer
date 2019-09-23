@@ -5,7 +5,7 @@
   "main": "components/index.js",
   "scripts": {
     "start": "budo index.js:bundle.js",
-    "build": "browserify index.js > bundle.js",
+    "build": "browserify index.js > bundle.js build --output public",
     "commit": "git-cz",
     "test": "standard",
     "prepublish": "mkdir -p dist && browserify dist.js > dist/rollcall.js && cat dist/rollcall.js | minify > dist/rollcall.min.js",
